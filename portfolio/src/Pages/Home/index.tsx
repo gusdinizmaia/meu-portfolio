@@ -1,5 +1,10 @@
-import { Header } from "../../Components/Header";
+import { About } from "../../Components/About";
+import { HomeStyle } from "./style";
 
 export const Home = () => {
-  return <Header />;
+  return (
+    <HomeStyle>
+      <About />
+    </HomeStyle>
+  );
 };

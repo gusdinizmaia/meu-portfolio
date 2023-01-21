@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-export const reset = createGlobalStyle`
+export const ResetStyle = createGlobalStyle`
 
 *{
     box-sizing: border-box;
@@ -16,5 +16,11 @@ textarea:focus, input:focus, select:focus {
     border: 0 none;
     outline: 0;
 } 
+
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+    max-width: 100%;
+}
 
 `;
