@@ -1,4 +1,3 @@
-import { Projects } from "../../Components/Projects";
 import { HomeStyle } from "./style";
 
 export const Home = () => {
