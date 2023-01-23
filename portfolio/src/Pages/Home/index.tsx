@@ -1,8 +1,6 @@
-import { About } from "../../Components/About";
+import { Projects } from "../../Components/Projects";
 import { HomeStyle } from "./style";
 
 export const Home = () => {
-
-  return <HomeStyle>
-    </HomeStyle>
+  return <HomeStyle></HomeStyle>;
 };

@@ -5,7 +5,7 @@ export const ResetStyle = createGlobalStyle`
 *{
     box-sizing: border-box;
     text-decoration: none;
-    list-style: 0;
+    list-style: none;
     border: 0;
     padding: 0;
     margin: 0;
