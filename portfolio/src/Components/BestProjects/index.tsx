@@ -1,11 +1,12 @@
-import { projects } from "../../Constants/projects";
+import { bestProjects } from "../../Constants/bestProjects";
 import { ListProjects } from "../ListProjects";
 import { BestProjectsStyle } from "./style";
 
 export const BestProjects = () => {
   return (
     <BestProjectsStyle>
-      <ListProjects array={projects} />
+      <h2>Projetos Destaque</h2>
+      <ListProjects array={bestProjects} />
     </BestProjectsStyle>
   );
 };

@@ -5,5 +5,8 @@ export const FilterProjectsStyle = styled.ul`
   grid-auto-flow: column;
   justify-content: space-between;
 
-  padding: 20px;
+  padding: 10px 20px;
+  border-radius: ${({ theme }) => theme.border.radius.one};
+
+  background-color: ${({ theme }) => theme.colors.fifth.main};
 `;

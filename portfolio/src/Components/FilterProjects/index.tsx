@@ -5,7 +5,7 @@ export const FilterProjects = () => {
   return (
     <FilterProjectsStyle>
       {techs.map((elem) => (
-        <li>{elem}</li>
+        <li key={elem}>{elem}</li>
       ))}
     </FilterProjectsStyle>
   );

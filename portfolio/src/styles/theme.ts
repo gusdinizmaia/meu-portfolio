@@ -1,5 +1,5 @@
 export const theme = {
-  color: {
+  colors: {
     first: {
       main: "#023047",
     },
@@ -22,26 +22,34 @@ export const theme = {
       four: "#dee2e6",
       five: "#f1f3f5",
     },
+    fixed: {
+      white: "#ffffff",
+      black: "#000000",
+    },
   },
 
   border: {
     radius: {
-      one: "12px",
-      two: "8px",
-      three: "4px",
+      one: "16px",
+      two: "10px",
+      three: "6px",
     },
     shadows: {
       one: "",
     },
   },
 
-  font: {
-    title1: "32px 700 Georgia, serif",
-    title2: "28px 700 Georgia, serif",
-    title3: "24px 700 Georgia, serif",
-    text1: "18px 700 Georgia, serif",
-    text2: "16px 700 Georgia, serif",
-    text3: "12px 700 Georgia, serif",
+  fonts: {
+    title: {
+      one: "700 32px Georgia, serif",
+      two: "600 28px Georgia, serif",
+      three: "600 24px Georgia, serif",
+    },
+    text: {
+      one: "500 18px Georgia, serif",
+      two: "500 16px Georgia, serif",
+      three: "400 12px Georgia, serif",
+    },
   },
 };
 
