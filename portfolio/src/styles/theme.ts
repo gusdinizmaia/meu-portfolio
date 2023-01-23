@@ -30,9 +30,9 @@ export const theme = {
 
   border: {
     radius: {
-      one: "12px",
-      two: "8px",
-      three: "4px",
+      one: "16px",
+      two: "10px",
+      three: "6px",
     },
     shadows: {
       one: "",

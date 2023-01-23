@@ -11,12 +11,14 @@ export const ListProjects = ({ array }: iListProjects) => {
   return (
     <ListProjectsStyle>
       {array.map((elem) => (
-        <li>
+        <li key={elem.name}>
           <figure>
             <img src={img} alt={elem.name} />
           </figure>
-          <h3>{elem.name}</h3>
-          <p>{elem.description}</p>
+          <div>
+            <h3>{elem.name}</h3>
+            <p>{elem.description}</p>
+          </div>
         </li>
       ))}
     </ListProjectsStyle>
