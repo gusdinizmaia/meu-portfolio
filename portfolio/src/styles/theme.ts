@@ -1,30 +1,55 @@
 export const theme = {
-  color: {
-    primary1: {
-      main: "",
+  colors: {
+    first: {
+      main: "#023047",
     },
-    secundary: {
-      main: "",
+    second: {
+      main: "#FB8500",
+    },
+    third: {
+      main: "#FFB703",
+    },
+    fourth: {
+      main: "#219EBC",
+    },
+    fifth: {
+      main: "#8ECAE6",
     },
     grey: {
-      one: "",
+      one: "#212529",
+      two: "#495057",
+      three: "#adb5bd",
+      four: "#dee2e6",
+      five: "#f1f3f5",
     },
-    toast: {
-      negative: "",
-      warning: "",
-      success: "",
-      information: "",
+    fixed: {
+      white: "#ffffff",
+      black: "#000000",
     },
   },
 
   border: {
     radius: {
+      one: "16px",
+      two: "10px",
+      three: "6px",
+    },
+    shadows: {
       one: "",
     },
   },
 
-  font: {
-    one: "",
+  fonts: {
+    title: {
+      one: "700 32px Georgia, serif",
+      two: "600 28px Georgia, serif",
+      three: "600 24px Georgia, serif",
+    },
+    text: {
+      one: "500 18px Georgia, serif",
+      two: "500 16px Georgia, serif",
+      three: "400 12px Georgia, serif",
+    },
   },
 };
 

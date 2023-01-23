@@ -1,5 +1,5 @@
-import { Header } from "../../Components/Header";
+import { HomeStyle } from "./style";
 
 export const Home = () => {
-  return;
+  return <HomeStyle></HomeStyle>;
 };

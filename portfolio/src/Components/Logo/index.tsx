@@ -1,5 +1,5 @@
 import { LogoStyle } from "./style";
 
 export const Logo = () => {
-  return <LogoStyle>logo</LogoStyle>;
+  return <LogoStyle>Gustavo Diniz</LogoStyle>;
 };

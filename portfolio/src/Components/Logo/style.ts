@@ -1,3 +1,5 @@
 import styled from "styled-components";
 
-export const LogoStyle = styled.div``;
+export const LogoStyle = styled.div`
+  color: ${({ theme }) => theme.colors.first.main};
+`;
