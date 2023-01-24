@@ -2,10 +2,11 @@ import styled from "styled-components";
 
 export const ListProjectsStyle = styled.ul`
   display: grid;
-
   grid-auto-flow: column;
+  justify-content: flex-start;
   gap: 25px;
 
+  height: 275px;
   padding: 20px 20px 20px 0;
   overflow-x: scroll;
 

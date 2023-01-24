@@ -1,28 +1,38 @@
-interface iProjectsObj {
-  name: string;
-  description: string;
-  link: string;
-  techs: string[];
-}
-export type iProjects = iProjectsObj[];
+import { iProjectsObj } from "./projects";
+export type iProjects = iProjectsObj[] | [];
 
 export const bestProjects = [
   {
     name: "Hamburgueria Kenzie",
     description: "",
     link: "",
-    techs: ["js", "css"],
+    techs: [
+      "REACTJS",
+      "JAVASCRIPT",
+      "CSS",
+      "STYLED-COMPONENTS",
+      "TYPE-SCRIPT",
+      "FRONT-END",
+      "HTML",
+    ],
+  },
+  {
+    name: "Kenzie Hub",
+    description: "",
+    link: "",
+    techs: [
+      "REACTJS",
+      "JAVASCRIPT",
+      "CSS",
+      "STYLED-COMPONENTS",
+      "FRONT-END",
+      "HTML",
+    ],
   },
   {
     name: "Nu Kenzie",
     description: "",
     link: "",
-    techs: ["js", "css"],
-  },
-  {
-    name: "Kenzie Empresas",
-    description: "",
-    link: "",
-    techs: ["js", "css"],
+    techs: ["REACTJS", "JAVASCRIPT", "CSS", "FRONT-END", "HTML"],
   },
 ];
