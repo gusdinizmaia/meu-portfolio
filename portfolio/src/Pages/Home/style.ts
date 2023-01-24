@@ -4,6 +4,7 @@ export const HomeStyle = styled.main`
   display: flex;
   flex-direction: column;
   section {
-    padding: 35px 7%;
+    width: 100%;
+    padding: 40px 7%;
   }
 `;

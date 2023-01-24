@@ -8,10 +8,16 @@ export const FilterProjectsStyle = styled.ul`
   display: grid;
   grid-auto-flow: column;
   justify-content: space-between;
+  gap: 20px;
+  overflow-x: scroll;
 
   padding: 10px 20px;
   border-radius: ${({ theme }) => theme.border.radius.one};
   background-color: ${({ theme }) => theme.colors.fifth.main};
+
+  @media (min-width: 1024px) {
+    overflow-x: hidden;
+  }
 `;
 
 export const TechStyle = styled.li<iTechStyle>`

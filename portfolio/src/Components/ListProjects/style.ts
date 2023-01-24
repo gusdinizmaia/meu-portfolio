@@ -4,7 +4,7 @@ export const ListProjectsStyle = styled.ul`
   display: grid;
   grid-auto-flow: column;
   justify-content: flex-start;
-  gap: 25px;
+  gap: 60px;
 
   height: 275px;
   padding: 20px 20px 20px 0;
@@ -15,17 +15,16 @@ export const ListProjectsStyle = styled.ul`
     background-color: ${({ theme }) => theme.colors.grey.four};
 
     border-radius: ${({ theme }) => theme.border.radius.two};
-    border: 1px solid ${({ theme }) => theme.colors.first.main};
     height: 220px;
-    width: 180px;
+    width: 240px;
 
     figure,
     img {
-      height: 90px;
+      height: 100px;
       width: 100%;
-      border-radius: ${({ theme }) =>
-        `${theme.border.radius.two} ${theme.border.radius.two} 0 0`};
       img {
+        border-radius: ${({ theme }) =>
+          `${theme.border.radius.two} ${theme.border.radius.two} 0 0`};
         object-fit: cover;
       }
     }
@@ -46,6 +45,5 @@ export const ListProjectsStyle = styled.ul`
   }
 
   @media (min-width: 768px) {
-    gap: 35px;
   }
 `;

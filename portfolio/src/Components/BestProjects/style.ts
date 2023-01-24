@@ -3,8 +3,9 @@ import { ProjectsStyle } from "../Projects/style";
 
 export const BestProjectsStyle = styled(ProjectsStyle)`
   ul {
-    @media (min-width: 768px) {
-      justify-items: center;
+    justify-content: flex-start;
+    @media (min-width: 1000px) {
+      justify-content: center;
       overflow-x: hidden;
     }
   }

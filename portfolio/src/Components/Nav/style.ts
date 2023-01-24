@@ -13,13 +13,22 @@ export const NavStyled = styled.div<iIconStyled>`
 
   nav {
     display: ${({ showNavStyle }) => (showNavStyle ? "flex" : "none")};
+
+    @media (min-width: 768px) {
+      display: flex;
+    }
   }
 `;
 
 export const MenuStyled = styled(MdMenu)<iIconStyled>`
   display: ${({ showNavStyle }) => (showNavStyle ? "none" : "block")};
+  color: ${({ theme }) => theme.colors.fixed.white};
 
   cursor: pointer;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
 `;
 
 export const CloseStyled = styled(MdClose)<iIconStyled>`
