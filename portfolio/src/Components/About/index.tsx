@@ -4,7 +4,7 @@ const imgPerfil = require("../../Assents/img/perfil.jpg");
 
 export const About = () => {
   return (
-    <AboutStyled>
+    <AboutStyled id="about">
       <figure>
         <img src={imgPerfil} alt="" />
       </figure>
