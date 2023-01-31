@@ -8,11 +8,16 @@ export const FooterStyle = styled.section`
   background-color: ${({ theme }) => theme.colors.fifth.main};
 
   p {
-    font: ${({ theme }) => theme.fonts.text.three};
+    font: ${({ theme }) => theme.fonts.text.one};
     text-align: justify;
   }
-
   nav {
     align-self: center;
+  }
+
+  @media (min-width: 768px) {
+    p {
+      width: 80%;
+    }
   }
 `;

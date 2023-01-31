@@ -12,8 +12,8 @@ export const Contact = () => {
       </h3>
       <nav>
         <button>
+          Linked
           <LinkedInStyle />
-          Linkedin
         </button>
         <button>
           <GithubStyle />
