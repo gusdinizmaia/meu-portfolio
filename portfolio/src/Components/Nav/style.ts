@@ -3,7 +3,7 @@ import { MdMenu } from "react-icons/md";
 import { MdClose } from "react-icons/md";
 
 interface iIconStyled {
-  showNavStyle: boolean;
+  navstyle: string;
 }
 
 export const NavStyled = styled.div<iIconStyled>`
@@ -12,18 +12,30 @@ export const NavStyled = styled.div<iIconStyled>`
   gap: 30px;
 
   nav {
-    display: ${({ showNavStyle }) => (showNavStyle ? "flex" : "none")};
+    display: ${({ navstyle }) => navstyle};
+
+    @media (min-width: 768px) {
+      display: flex;
+    }
   }
 `;
 
 export const MenuStyled = styled(MdMenu)<iIconStyled>`
-  display: ${({ showNavStyle }) => (showNavStyle ? "none" : "block")};
+  display: ${({ navstyle }) => navstyle};
+
+  color: ${({ theme }) => theme.colors.fixed.white};
 
   cursor: pointer;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
 `;
 
 export const CloseStyled = styled(MdClose)<iIconStyled>`
-  display: ${({ showNavStyle }) => (showNavStyle ? "block" : "none")};
+  display: ${({ navstyle }) => navstyle};
+
+  color: ${({ theme }) => theme.colors.grey.five};
 
   cursor: pointer;
 `;

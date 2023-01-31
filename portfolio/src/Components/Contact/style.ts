@@ -1,4 +1,7 @@
 import styled from "styled-components";
+import { ButtonStyle } from "../../styles/theme";
+import { GoMarkGithub } from "react-icons/go";
+import { AiFillLinkedin } from "react-icons/ai";
 
 export const ContactStyle = styled.section`
   display: flex;
@@ -13,14 +16,33 @@ export const ContactStyle = styled.section`
     color: ${({ theme }) => theme.colors.grey.one};
     text-align: justify;
   }
-  button {
-    width: 100%;
+  nav {
+    display: flex;
+    gap: 25px;
+    button {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      ${({ theme }) =>
+        ButtonStyle(theme.colors.second.main, theme.colors.grey.five)}
+    }
   }
 
   @media (min-width: 768px) {
     flex-direction: row;
     justify-content: space-between;
 
+    h3 {
+      width: 70%;
+    }
+
+    nav {
+      flex-direction: column;
+    }
+
     gap: 80px;
   }
 `;
+
+export const GithubStyle = styled(GoMarkGithub)``;
+export const LinkedInStyle = styled(AiFillLinkedin)``;

@@ -39,18 +39,31 @@ export const theme = {
     },
   },
 
+  // Montserrat, sans-serif
+  // Bebas Neue, cursive
+  // Roboto Mono, monospace
+
   fonts: {
     title: {
-      one: "700 32px Georgia, serif",
-      two: "600 28px Georgia, serif",
-      three: "600 24px Georgia, serif",
+      one: "700 32px Montserrat, sans-serif",
+      two: "600 28px Montserrat, sans-serif",
+      three: "600 24px Montserrat, sans-serif",
     },
     text: {
-      one: "500 18px Georgia, serif",
-      two: "500 16px Georgia, serif",
-      three: "400 12px Georgia, serif",
+      one: "500 18px Montserrat, sans-serif",
+      two: "500 16px Montserrat, sans-serif",
+      three: "400 12px Montserrat, sans-serif",
     },
   },
+};
+
+export const ButtonStyle = (background: string, color: string) => {
+  return `color: ${color};
+  background-color: ${background};
+  font: ${theme.fonts.text.two};
+  padding: 6px 8px;
+  border-radius: ${theme.border.radius.two};
+  cursor: pointer;`;
 };
 
 export const themeInvert = {};

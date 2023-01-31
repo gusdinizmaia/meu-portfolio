@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
 export const LogoStyle = styled.div`
-  color: ${({ theme }) => theme.colors.first.main};
+  display: flex;
+
+  color: ${({ theme }) => theme.colors.fixed.white};
+  p {
+  }
 `;

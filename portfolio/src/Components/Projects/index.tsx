@@ -9,7 +9,7 @@ export const Projects = () => {
   const { filterProjects } = useContext(ContextUser);
 
   return (
-    <ProjectsStyle>
+    <ProjectsStyle id="projects">
       <h2>Projetos</h2>
       <FilterProjects />
       <ListProjects array={filterProjects(projects)} />

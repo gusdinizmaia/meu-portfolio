@@ -6,10 +6,16 @@ export const Nav = () => {
   const [showNav, setShowNav] = useState<boolean>(false);
 
   return (
-    <NavStyled showNavStyle={showNav}>
+    <NavStyled navstyle={showNav ? "flex" : "none"}>
       <ButtonsNav />
-      <MenuStyled onClick={(e) => setShowNav(true)} showNavStyle={showNav} />
-      <CloseStyled showNavStyle={showNav} onClick={() => setShowNav(false)} />
+      <MenuStyled
+        onClick={(e) => setShowNav(true)}
+        navstyle={showNav ? "none" : "block"}
+      />
+      <CloseStyled
+        navstyle={showNav ? "block" : "none"}
+        onClick={() => setShowNav(false)}
+      />
     </NavStyled>
   );
 };

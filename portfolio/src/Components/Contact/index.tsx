@@ -1,8 +1,8 @@
-import { ContactStyle } from "./style";
+import { ContactStyle, GithubStyle, LinkedInStyle } from "./style";
 
 export const Contact = () => {
   return (
-    <ContactStyle>
+    <ContactStyle id="contact">
       <h3>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -10,7 +10,16 @@ export const Contact = () => {
         scrambled it to make a type specimen book. It has survived not only five
         centuries
       </h3>
-      <button>Contact me</button>
+      <nav>
+        <button>
+          <LinkedInStyle />
+          Linkedin
+        </button>
+        <button>
+          <GithubStyle />
+          Github
+        </button>
+      </nav>
     </ContactStyle>
   );
 };
