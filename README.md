@@ -2,9 +2,9 @@
 
 <h3>ReactJs</h3>
 
-<p>Hamburgueria Kenzie - https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-template-hamburgueria-da-kenzie-gusdinizmaia</p>
-<p>Kenzie-hub - https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-kenzie-hub-gusdinizmaia</p>
-<p>Nu-Kenzie - https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-template-nu-kenzie-gusdinizmaia</p>
+<p>Hamburgueria Kenzie - https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-template-hamburgueria-da-kenzie-gusdinizmaia, aplicação: https://n-sigma-six.vercel.app/</p>
+<p>Kenzie-hub - https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-kenzie-hub-gusdinizmaia, aplicação: https://kenzie-hub-two-eta.vercel.app/</p>
+<p>Nu-Kenzie - https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-template-nu-kenzie-gusdinizmaia, aplicação: https://react-entrega-s1-template-nu-kenzie-gusdinizmaia.vercel.app/</p>
 <p>Kenzie Empresas - https://github.com/Kenzie-Academy-Brasil-Developers/m2-projeto-frotend-empresas-gusdinizmaia</p>
 
 <h3>Js e Css puro</h3>
@@ -19,21 +19,4 @@
 <p>E-commerce - https://github.com/Kenzie-Academy-Brasil-Developers/m1-entrega-capstone-ecommerce-gusdinizmaia</p>
 <p>Mercado - https://github.com/Kenzie-Academy-Brasil-Developers/m1-entrega-mercado-gusdinizmaia</p>
 <p>KenzieFlix - https://github.com/Kenzie-Academy-Brasil-Developers/m1-sprint_2-kenzieflix-gusdinizmaia</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
