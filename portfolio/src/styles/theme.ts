@@ -50,7 +50,7 @@ export const theme = {
       three: "600 24px Montserrat, sans-serif",
     },
     text: {
-      one: "500 18px Montserrat, sans-serif",
+      one: "600 18px Montserrat, sans-serif",
       two: "500 16px Montserrat, sans-serif",
       three: "400 12px Montserrat, sans-serif",
     },

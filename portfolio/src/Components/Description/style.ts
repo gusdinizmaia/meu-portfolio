@@ -5,6 +5,8 @@ export const DescriptionStyle = styled.section`
   align-items: center;
   justify-content: flex-start;
 
+  position: relative;
+
   background-color: ${({ theme }) => theme.colors.third.main};
 
   p {

@@ -18,13 +18,28 @@ export const ContactStyle = styled.section`
   }
   nav {
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 25px;
+
     button {
       display: flex;
       align-items: center;
+      width: 100px;
       gap: 7px;
       ${({ theme }) =>
         ButtonStyle(theme.colors.second.main, theme.colors.grey.five)}
+
+      :nth-child(1) {
+        background-color: ${({ theme }) => theme.colors.grey.five};
+        color: ${({ theme }) => theme.colors.grey.one};
+        font: ${({ theme }) => theme.fonts.text.one};
+        gap: 1px;
+      }
+      :nth-child(2) {
+        background-color: ${({ theme }) => theme.colors.grey.two};
+        font: ${({ theme }) => theme.fonts.text.one};
+      }
     }
   }
 
@@ -44,5 +59,12 @@ export const ContactStyle = styled.section`
   }
 `;
 
-export const GithubStyle = styled(GoMarkGithub)``;
-export const LinkedInStyle = styled(AiFillLinkedin)``;
+export const GithubStyle = styled(GoMarkGithub)`
+  color: ${({ theme }) => theme.colors.grey.five};
+  font: ${({ theme }) => theme.fonts.text.one};
+`;
+export const LinkedInStyle = styled(AiFillLinkedin)`
+  color: ${({ theme }) => theme.colors.fourth.main};
+  background-color: ${({ theme }) => theme.colors.grey.five};
+  font: ${({ theme }) => theme.fonts.text.one};
+`;
