@@ -1,7 +1,7 @@
 import { CardStyle, ListProjectsStyle } from "./style";
 import { iProjects } from "../../Constants/projects";
 
-const img = require("../../Assents/img/perfil.jpg");
+const img = require("../../Assents/img/teste.jpg");
 
 interface iListProjects {
   array: iProjects;
