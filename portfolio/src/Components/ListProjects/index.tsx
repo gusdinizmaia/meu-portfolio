@@ -1,8 +1,6 @@
 import { CardStyle, ListProjectsStyle } from "./style";
 import { iProjects } from "../../Constants/projects";
 
-const img = require("../../Assents/img/teste.jpg");
-
 interface iListProjects {
   array: iProjects;
 }
@@ -11,13 +9,24 @@ export const ListProjects = ({ array }: iListProjects) => {
   return (
     <ListProjectsStyle>
       {array.map((elem) => (
-        <CardStyle key={elem.name}>
+        <CardStyle
+          onClick={(e) => (elem.link !== "" ? window.open(elem.link) : "")}
+          key={elem.name}
+        >
           <figure>
-            <img src={img} alt={elem.name} />
+            <img
+              src={
+                elem.image !== ""
+                  ? elem.image
+                  : "http://localhost:3000/projects/em-breve.png"
+              }
+              alt={elem.name}
+            />
           </figure>
           <div>
             <h3>{elem.name}</h3>
             <p>{elem.description}</p>
+            <button>Visitar</button>
           </div>
         </CardStyle>
       ))}

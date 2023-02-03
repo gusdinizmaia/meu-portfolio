@@ -5,7 +5,7 @@ import { BestProjectsStyle } from "./style";
 export const BestProjects = () => {
   return (
     <BestProjectsStyle>
-      <h2>Projetos Destaque</h2>
+      <h2 id="bests_projects">Projetos No ar</h2>
       <ListProjects array={bestProjects} />
     </BestProjectsStyle>
   );

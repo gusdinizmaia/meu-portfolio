@@ -2,8 +2,6 @@ import styled, { css } from "styled-components";
 import { MdMenu } from "react-icons/md";
 import { MdClose } from "react-icons/md";
 
-import lua from "../../Assents/img/lua.jpg";
-
 interface iIconStyled {
   navstyle: string;
 }
@@ -29,7 +27,9 @@ export const NavStyled = styled.nav<iIconStyled>`
     position: fixed;
     top: 0;
     right: 0;
-    background-image: url(${lua});
+    z-index: 10;
+    background-color: ${({ theme }) => theme.colors.fifth.main};
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
     ${({ navstyle }) =>
       navstyle === "active" &&

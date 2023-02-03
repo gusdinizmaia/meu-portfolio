@@ -11,8 +11,10 @@ export const FooterStyle = styled.section`
     font: ${({ theme }) => theme.fonts.text.one};
     text-align: justify;
   }
-  nav {
+  ul {
     align-self: center;
+    flex-direction: row;
+    position: static;
   }
 
   @media (min-width: 768px) {

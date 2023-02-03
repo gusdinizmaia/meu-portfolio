@@ -1,7 +1,5 @@
 import { createContext, useState } from "react";
 import { iProjects } from "../Constants/projects";
-import { getLinkPreview, getPreviewFromContent } from "link-preview-js";
-import { api } from "../Services";
 
 // pass the link directly
 
