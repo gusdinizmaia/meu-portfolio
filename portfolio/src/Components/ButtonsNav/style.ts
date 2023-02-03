@@ -1,13 +1,39 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { ButtonStyle } from "../../styles/theme";
 
-export const ButtonsNavStyle = styled.nav`
+const buttonsAnimation = keyframes`
+
+ to{
+    opacity:0;
+  }
+  from{
+    opacity: 1;
+  }
+`;
+
+export const ButtonsNavStyle = styled.ul`
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 20px;
-  width: fit-content;
+
+  position: relative;
+  top: -25px;
+  right: -25px;
 
   a {
     ${({ theme }) =>
       ButtonStyle(theme.colors.fourth.main, theme.colors.fixed.white)}
+    width: fit-content;
+  }
+
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    position: static;
+    width: auto;
+    height: auto;
+    position: static;
   }
 `;

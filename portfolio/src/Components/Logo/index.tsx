@@ -1,10 +1,16 @@
-import { LogoStyle } from "./style";
+import { BrainStyle, LogoStyle, ReactStyle } from "./style";
 
 export const Logo = () => {
   return (
     <LogoStyle>
-      Gustavo
-      <p>Diniz</p>
+      <div className="logo">
+        <BrainStyle />
+        <ReactStyle />
+      </div>
+      <div>
+        Gustavo
+        <p>Diniz</p>
+      </div>
     </LogoStyle>
   );
 };

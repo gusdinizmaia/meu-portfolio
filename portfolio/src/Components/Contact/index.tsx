@@ -4,18 +4,22 @@ export const Contact = () => {
   return (
     <ContactStyle id="contact">
       <h3>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries
+        Sou uma pessoa bastante comunicativa, valorizo muito um trabalho
+        colaborativo onde todos que participam conseguem dar ideias e dialogar
+        sobre o projeto como um todo, acredito que essa troca de ideias ajuda
+        todos a interagirem com outras tecnologias e se tornarem devs mais
+        completos.
       </h3>
       <nav>
-        <button>
+        <button
+          onClick={(e) =>
+            window.open("https://www.linkedin.com/in/gustavodinizm/")
+          }
+        >
           Linked
           <LinkedInStyle />
         </button>
-        <button>
+        <button onClick={(e) => window.open("https://github.com/gusdinizmaia")}>
           <GithubStyle />
           Github
         </button>

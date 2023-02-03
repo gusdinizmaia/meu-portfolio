@@ -45,9 +45,9 @@ export const theme = {
 
   fonts: {
     title: {
-      one: "700 32px Montserrat, sans-serif",
-      two: "600 28px Montserrat, sans-serif",
-      three: "600 24px Montserrat, sans-serif",
+      one: "700 28px Montserrat, sans-serif",
+      two: "600 24px Montserrat, sans-serif",
+      three: "600 22px Montserrat, sans-serif",
     },
     text: {
       one: "600 18px Montserrat, sans-serif",

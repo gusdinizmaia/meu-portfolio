@@ -13,7 +13,6 @@ export const ResetStyle = createGlobalStyle`
 }
 
 ul{
-
     ::-webkit-scrollbar {
     width: auto;
     height: 14px;
@@ -32,6 +31,7 @@ ul{
 *{
     scrollbar-width: thin;
     scrollbar-color: black transparent;
+    scroll-behavior: smooth;
 
     ::-webkit-scrollbar {
     width: 8px;
