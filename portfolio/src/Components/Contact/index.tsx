@@ -4,11 +4,9 @@ export const Contact = () => {
   return (
     <ContactStyle id="contact">
       <h3>
-        Sou uma pessoa bastante comunicativa, valorizo muito um trabalho
-        colaborativo onde todos que participam conseguem dar ideias e dialogar
-        sobre o projeto como um todo, acredito que essa troca de ideias ajuda
-        todos a interagirem com outras tecnologias e se tornarem devs mais
-        completos.
+        Desenvolvedor Front-End com experiência em JavaScript, React e
+        Typescript tenho como foco soluções eficientes e inovadoras para
+        melhorar a experiência do usuário. Conheça meu trabalho.
       </h3>
       <nav>
         <button

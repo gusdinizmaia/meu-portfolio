@@ -11,10 +11,9 @@ export const About = () => {
       <div>
         <h2>Gustavo Diniz Maia</h2>
         <p>
-          Prazer, sou Gustavo Diniz um jovem desenvolvedor front-end certificado
-          pela Kenzie Academy em busca da primeira experiência profissional , se
-          você está aqui provavelmente ficou curioso do que eu sou capaz então
-          agora vou te mostrar!
+          Sou Gustavo Diniz, jovem desenvolvedor front-end certificado pela
+          Kenzie Academy. busco minha primeira experiência profissional e estou
+          ansioso para compartilhar meus conhecimentos e habilidades com vocês.
         </p>
       </div>
     </AboutStyled>
