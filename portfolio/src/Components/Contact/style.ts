@@ -13,7 +13,7 @@ export const ContactStyle = styled.section`
 
   h3 {
     font: ${({ theme }) => theme.fonts.text.two};
-    color: ${({ theme }) => theme.colors.grey.one};
+    color: ${({ theme }) => theme.colors.grey.two};
     text-align: justify;
   }
   nav {
@@ -27,17 +27,14 @@ export const ContactStyle = styled.section`
       align-items: center;
       width: 100px;
       gap: 7px;
-      ${({ theme }) =>
-        ButtonStyle(theme.colors.second.main, theme.colors.grey.five)}
 
       :nth-child(1) {
-        background-color: ${({ theme }) => theme.colors.grey.five};
-        color: ${({ theme }) => theme.colors.grey.one};
+        ${ButtonStyle("grey5")};
         font: ${({ theme }) => theme.fonts.text.one};
         gap: 1px;
       }
       :nth-child(2) {
-        background-color: ${({ theme }) => theme.colors.grey.two};
+        ${ButtonStyle("grey2")};
         font: ${({ theme }) => theme.fonts.text.one};
       }
     }

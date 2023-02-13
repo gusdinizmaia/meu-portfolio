@@ -10,6 +10,8 @@ export const DescriptionStyle = styled.section`
   background-color: ${({ theme }) => theme.colors.third.main};
 
   p {
+    color: ${({ theme }) => theme.colors.grey.two};
+
     font: ${({ theme }) => theme.fonts.text.two};
     text-align: justify;
   }

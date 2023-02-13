@@ -47,15 +47,19 @@ export const CardStyle = styled.li`
     padding: 15px 20px;
     height: 140px;
     h3 {
-      font: ${({ theme }) => theme.fonts.text.two};
+      font: ${({ theme }) => theme.fonts.text.one};
     }
     p {
       font: ${({ theme }) => theme.fonts.text.three};
     }
-    button {
-      ${({ theme }) =>
-        ButtonStyle(theme.colors.third.main, theme.colors.fixed.white)}
+    > button {
       width: 100%;
+      :nth-of-type(1) {
+        ${ButtonStyle("first")}
+      }
+      :nth-of-type(2) {
+        ${ButtonStyle("third")}
+      }
     }
   }
 `;

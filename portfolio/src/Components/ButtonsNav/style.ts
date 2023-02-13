@@ -23,8 +23,7 @@ export const ButtonsNavStyle = styled.ul`
   right: -25px;
 
   a {
-    ${({ theme }) =>
-      ButtonStyle(theme.colors.fourth.main, theme.colors.fixed.white)}
+    ${({ theme }) => ButtonStyle("fourth")}
     width: fit-content;
   }
 

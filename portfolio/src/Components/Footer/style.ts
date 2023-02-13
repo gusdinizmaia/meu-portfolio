@@ -9,6 +9,7 @@ export const FooterStyle = styled.section`
 
   p {
     font: ${({ theme }) => theme.fonts.text.one};
+    color: ${({ theme }) => theme.colors.grey.one};
     text-align: justify;
   }
   ul {

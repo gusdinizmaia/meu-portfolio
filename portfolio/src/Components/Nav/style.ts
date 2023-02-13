@@ -60,6 +60,7 @@ export const NavStyled = styled.nav<iIconStyled>`
       background: transparent;
       overflow: auto;
       border-radius: 0;
+      box-shadow: none;
       svg {
         display: none;
       }

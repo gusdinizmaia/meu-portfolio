@@ -26,6 +26,7 @@ export const ListProjects = ({ array }: iListProjects) => {
           <div>
             <h3>{elem.name}</h3>
             <p>{elem.description}</p>
+            <button>Repositório</button>
             <button>Visitar</button>
           </div>
         </CardStyle>

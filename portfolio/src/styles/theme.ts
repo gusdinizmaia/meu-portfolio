@@ -1,19 +1,26 @@
+import { css } from "styled-components";
+
 export const theme = {
   colors: {
     first: {
       main: "#023047",
+      contrast: "#1b4459",
     },
     second: {
       main: "#FB8500",
+      contrast: "#fb9119",
     },
     third: {
       main: "#FFB703",
+      contrast: "#ffbe1c",
     },
     fourth: {
       main: "#219EBC",
+      contrast: "#37a7c2",
     },
     fifth: {
       main: "#8ECAE6",
+      contrast: "#99cfe8",
     },
     grey: {
       one: "#212529",
@@ -39,10 +46,6 @@ export const theme = {
     },
   },
 
-  // Montserrat, sans-serif
-  // Bebas Neue, cursive
-  // Roboto Mono, monospace
-
   fonts: {
     title: {
       one: "700 28px Montserrat, sans-serif",
@@ -57,13 +60,47 @@ export const theme = {
   },
 };
 
-export const ButtonStyle = (background: string, color: string) => {
-  return `color: ${color};
-  background-color: ${background};
-  font: ${theme.fonts.text.two};
-  padding: 6px 8px;
-  border-radius: ${theme.border.radius.two};
-  cursor: pointer;`;
+export const ButtonStyle = (name: string) => {
+  const button = (bg: string, bgHover: string, color?: string) => css`
+    font: ${theme.fonts.text.two};
+    font-weight: 600;
+    padding: 6px 8px;
+    border-radius: ${theme.border.radius.two};
+    cursor: pointer;
+    color: ${color ? color : theme.colors.grey.five};
+    background-color: ${bg};
+    transition: 0.25s;
+
+    :hover {
+      background-color: ${bgHover};
+      color: ${color ? color : theme.colors.grey.five};
+    }
+  `;
+
+  switch (name) {
+    case "first":
+      return button(theme.colors.first.main, theme.colors.first.contrast);
+    case "second":
+      return button(theme.colors.second.main, theme.colors.second.contrast);
+    case "third":
+      return button(
+        theme.colors.third.main,
+        theme.colors.third.contrast,
+        theme.colors.grey.two
+      );
+    case "fourth":
+      return button(theme.colors.fourth.main, theme.colors.fourth.contrast);
+    case "fifth":
+      return button(theme.colors.fifth.main, theme.colors.fifth.contrast);
+    case "grey5":
+      return button(
+        theme.colors.grey.five,
+        theme.colors.grey.four,
+        theme.colors.grey.two
+      );
+    case "grey2":
+      return button(theme.colors.grey.two, theme.colors.grey.three);
+  }
 };
 
 export const themeInvert = {};
