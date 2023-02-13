@@ -27,14 +27,7 @@ export const FilterProjectsStyle = styled.ul`
 `;
 
 export const TechStyle = styled.li<iTechStyle>`
-  ${({ theme, colorTech }) =>
-    ButtonStyle(
-      colorTech ? theme.colors.second.main : theme.colors.fourth.main,
-      theme.colors.fixed.white
-    )}
-  width: max-content;
+  ${({ colorTech }) => ButtonStyle(colorTech ? "third" : "fourth")}
 
-  :hover {
-    color: ${({ theme }) => theme.colors.fixed.white};
-  }
+  width: max-content;
 `;

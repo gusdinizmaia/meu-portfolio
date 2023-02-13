@@ -5,7 +5,7 @@ export const bestProjects = [
   {
     name: "Hamburgueria Kenzie",
     description: "",
-    link: "",
+    link: "https://n-sigma-six.vercel.app/",
     techs: [
       "REACTJS",
       "JAVASCRIPT",
@@ -15,11 +15,12 @@ export const bestProjects = [
       "FRONT-END",
       "HTML",
     ],
+    image: "http://localhost:3000/projects/hamburgueria.png",
   },
   {
     name: "Kenzie Hub",
     description: "",
-    link: "",
+    link: "https://kenzie-hub-two-eta.vercel.app/",
     techs: [
       "REACTJS",
       "JAVASCRIPT",
@@ -28,11 +29,13 @@ export const bestProjects = [
       "FRONT-END",
       "HTML",
     ],
+    image: "http://localhost:3000/projects/kenzie-hub.png",
   },
   {
     name: "Nu Kenzie",
     description: "",
-    link: "",
+    link: "https://react-entrega-s1-template-nu-kenzie-gusdinizmaia.vercel.app/",
     techs: ["REACTJS", "JAVASCRIPT", "CSS", "FRONT-END", "HTML"],
+    image: "http://localhost:3000/projects/nu-kenzie.png",
   },
 ];

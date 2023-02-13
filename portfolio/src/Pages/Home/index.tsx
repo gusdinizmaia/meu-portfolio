@@ -3,7 +3,6 @@ import { BestProjects } from "../../Components/BestProjects";
 import { Contact } from "../../Components/Contact";
 import { Description } from "../../Components/Description";
 import { Footer } from "../../Components/Footer";
-import { IllustrationHeader } from "../../Components/IllustrationHeader";
 import { Projects } from "../../Components/Projects";
 import { HomeStyle } from "./style";
 

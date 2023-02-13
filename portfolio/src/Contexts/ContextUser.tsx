@@ -1,6 +1,8 @@
 import { createContext, useState } from "react";
 import { iProjects } from "../Constants/projects";
 
+// pass the link directly
+
 interface iContextUser {
   children: React.ReactNode;
 }
