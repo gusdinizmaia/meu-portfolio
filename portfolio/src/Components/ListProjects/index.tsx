@@ -15,7 +15,7 @@ export const ListProjects = ({ array }: iListProjects) => {
               src={
                 elem.image !== ""
                   ? elem.image
-                  : "http://localhost:3000/projects/em-breve.png"
+                  : "https://portfolio-gusdinizmaia.vercel.app/projects/em-breve.png"
               }
               alt={elem.name}
             />

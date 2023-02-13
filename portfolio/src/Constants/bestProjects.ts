@@ -17,7 +17,8 @@ export const bestProjects = [
       "FRONT-END",
       "HTML",
     ],
-    image: "http://localhost:3000/projects/hamburgueria.png",
+    image:
+      "https://portfolio-gusdinizmaia.vercel.app/projects/hamburgueria.png",
   },
   {
     name: "Kenzie Hub",
@@ -33,7 +34,7 @@ export const bestProjects = [
       "FRONT-END",
       "HTML",
     ],
-    image: "http://localhost:3000/projects/kenzie-hub.png",
+    image: "https://portfolio-gusdinizmaia.vercel.app/projects/kenzie-hub.png",
   },
   {
     name: "Nu Kenzie",
@@ -42,6 +43,6 @@ export const bestProjects = [
       "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-template-nu-kenzie-gusdinizmaia",
     link: "https://react-entrega-s1-template-nu-kenzie-gusdinizmaia.vercel.app/",
     techs: ["REACTJS", "JAVASCRIPT", "CSS", "FRONT-END", "HTML"],
-    image: "http://localhost:3000/projects/nu-kenzie.png",
+    image: "https://portfolio-gusdinizmaia.vercel.app/projects/nu-kenzie.png",
   },
 ];
