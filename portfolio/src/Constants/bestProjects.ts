@@ -5,6 +5,8 @@ export const bestProjects = [
   {
     name: "Hamburgueria Kenzie",
     description: "",
+    repository:
+      "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-template-hamburgueria-da-kenzie-gusdinizmaia",
     link: "https://n-sigma-six.vercel.app/",
     techs: [
       "REACTJS",
@@ -20,6 +22,8 @@ export const bestProjects = [
   {
     name: "Kenzie Hub",
     description: "",
+    repository:
+      "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-kenzie-hub-gusdinizmaia",
     link: "https://kenzie-hub-two-eta.vercel.app/",
     techs: [
       "REACTJS",
@@ -34,6 +38,8 @@ export const bestProjects = [
   {
     name: "Nu Kenzie",
     description: "",
+    repository:
+      "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-template-nu-kenzie-gusdinizmaia",
     link: "https://react-entrega-s1-template-nu-kenzie-gusdinizmaia.vercel.app/",
     techs: ["REACTJS", "JAVASCRIPT", "CSS", "FRONT-END", "HTML"],
     image: "http://localhost:3000/projects/nu-kenzie.png",

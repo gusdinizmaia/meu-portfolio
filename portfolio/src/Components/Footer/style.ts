@@ -11,10 +11,18 @@ export const FooterStyle = styled.section`
     font: ${({ theme }) => theme.fonts.text.one};
     color: ${({ theme }) => theme.colors.grey.one};
     text-align: justify;
+
+    ::after {
+      margin-top: 10px;
+      content: "- Paulo Freire";
+      display: block;
+      text-align: end;
+    }
   }
   ul {
     align-self: center;
     flex-direction: row;
+    flex-wrap: wrap;
     position: static;
   }
 

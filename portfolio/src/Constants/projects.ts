@@ -1,6 +1,7 @@
 export interface iProjectsObj {
   name: string;
   description: string;
+  repository: string;
   link: string;
   techs: string[];
   image: string;
@@ -11,6 +12,8 @@ export const projects = [
   {
     name: "Hamburgueria Kenzie",
     description: "",
+    repository:
+      "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-template-hamburgueria-da-kenzie-gusdinizmaia",
     link: "https://n-sigma-six.vercel.app/",
     techs: [
       "REACTJS",
@@ -26,6 +29,8 @@ export const projects = [
   {
     name: "Kenzie Hub",
     description: "",
+    repository:
+      "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-kenzie-hub-gusdinizmaia",
     link: "https://kenzie-hub-two-eta.vercel.app/",
     techs: [
       "REACTJS",
@@ -40,6 +45,8 @@ export const projects = [
   {
     name: "Nu Kenzie",
     description: "",
+    repository:
+      "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-template-nu-kenzie-gusdinizmaia",
     link: "https://react-entrega-s1-template-nu-kenzie-gusdinizmaia.vercel.app/",
     techs: ["REACTJS", "JAVASCRIPT", "CSS", "FRONT-END", "HTML"],
     image: "http://localhost:3000/projects/nu-kenzie.png",
@@ -47,6 +54,8 @@ export const projects = [
   {
     name: "Kenzie Empresas",
     description: "",
+    repository:
+      "https://github.com/Kenzie-Academy-Brasil-Developers/m2-projeto-frotend-empresas-gusdinizmaia",
     link: "",
     techs: ["JAVASCRIPT", "CSS", "FRONT-END", "HTML"],
     image: "",
@@ -54,6 +63,8 @@ export const projects = [
   {
     name: "Living",
     description: "",
+    repository:
+      "https://github.com/Kenzie-Academy-Brasil-Developers/livingbase-gusdinizmaia",
     link: "",
     techs: ["JAVASCRIPT", "CSS", "FRONT-END", "HTML"],
     image: "",
@@ -61,6 +72,8 @@ export const projects = [
   {
     name: "Pet Info",
     description: "",
+    repository:
+      "https://github.com/Kenzie-Academy-Brasil-Developers/petinfobase-gusdinizmaia",
     link: "",
     techs: ["JAVASCRIPT", "CSS", "FRONT-END", "HTML"],
     image: "",
@@ -68,6 +81,8 @@ export const projects = [
   {
     name: "Git Search",
     description: "",
+    repository:
+      "https://github.com/Kenzie-Academy-Brasil-Developers/gitSearchBase-gusdinizmaia",
     link: "",
     techs: ["JAVASCRIPT", "CSS", "FRONT-END", "HTML"],
     image: "",
@@ -75,6 +90,8 @@ export const projects = [
   {
     name: "Web Woman",
     description: "",
+    repository:
+      "https://github.com/Kenzie-Academy-Brasil-Developers/webwomen-base-gusdinizmaia",
     link: "",
     techs: ["JAVASCRIPT", "CSS", "FRONT-END", "HTML"],
     image: "",
@@ -82,6 +99,8 @@ export const projects = [
   {
     name: "Open Music",
     description: "",
+    repository:
+      "https://github.com/Kenzie-Academy-Brasil-Developers/open-music-base-gusdinizmaia",
     link: "",
     techs: ["JAVASCRIPT", "CSS", "FRONT-END", "HTML"],
     image: "",
@@ -89,6 +108,8 @@ export const projects = [
   {
     name: "Rede Social",
     description: "",
+    repository:
+      "https://github.com/Kenzie-Academy-Brasil-Developers/css-intermediario-criando-rede-social-gusdinizmaia-5",
     link: "",
     techs: ["JAVASCRIPT", "CSS", "FRONT-END", "HTML"],
     image: "",
@@ -96,6 +117,8 @@ export const projects = [
   {
     name: "Reproduzindo métodos",
     description: "",
+    repository:
+      "https://github.com/Kenzie-Academy-Brasil-Developers/m2-javascript-reproduzindo-metodos-gusdinizmaia",
     link: "",
     techs: ["JAVASCRIPT", "CSS", "FRONT-END", "HTML"],
     image: "",
@@ -103,6 +126,8 @@ export const projects = [
   {
     name: "E-commerce",
     description: "",
+    repository:
+      "https://github.com/Kenzie-Academy-Brasil-Developers/m1-entrega-capstone-ecommerce-gusdinizmaia",
     link: "",
     techs: ["JAVASCRIPT", "CSS", "FRONT-END", "HTML"],
     image: "",
@@ -110,6 +135,8 @@ export const projects = [
   {
     name: "Mercado",
     description: "",
+    repository:
+      "https://github.com/Kenzie-Academy-Brasil-Developers/m1-entrega-mercado-gusdinizmaia",
     link: "",
     techs: ["JAVASCRIPT", "CSS", "FRONT-END", "HTML"],
     image: "",
@@ -117,6 +144,8 @@ export const projects = [
   {
     name: "KenzieFlix",
     description: "",
+    repository:
+      "https://github.com/Kenzie-Academy-Brasil-Developers/m1-sprint_2-kenzieflix-gusdinizmaia",
     link: "",
     techs: ["CSS", "FRONT-END", "HTML"],
     image: "",

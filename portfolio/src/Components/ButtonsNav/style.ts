@@ -1,15 +1,5 @@
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 import { ButtonStyle } from "../../styles/theme";
-
-const buttonsAnimation = keyframes`
-
- to{
-    opacity:0;
-  }
-  from{
-    opacity: 1;
-  }
-`;
 
 export const ButtonsNavStyle = styled.ul`
   display: flex;
@@ -23,7 +13,7 @@ export const ButtonsNavStyle = styled.ul`
   right: -25px;
 
   a {
-    ${({ theme }) => ButtonStyle("fourth")}
+    ${ButtonStyle("fourth")}
     width: fit-content;
   }
 

@@ -58,7 +58,7 @@ export const CardStyle = styled.li`
         ${ButtonStyle("first")}
       }
       :nth-of-type(2) {
-        ${ButtonStyle("third")}
+        ${ButtonStyle("second")}
       }
     }
   }

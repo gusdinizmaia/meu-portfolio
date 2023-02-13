@@ -9,10 +9,7 @@ export const ListProjects = ({ array }: iListProjects) => {
   return (
     <ListProjectsStyle>
       {array.map((elem) => (
-        <CardStyle
-          onClick={(e) => (elem.link !== "" ? window.open(elem.link) : "")}
-          key={elem.name}
-        >
+        <CardStyle key={elem.name}>
           <figure>
             <img
               src={
@@ -26,8 +23,18 @@ export const ListProjects = ({ array }: iListProjects) => {
           <div>
             <h3>{elem.name}</h3>
             <p>{elem.description}</p>
-            <button>Repositório</button>
-            <button>Visitar</button>
+            <button
+              onClick={(e) =>
+                elem.link !== "" ? window.open(elem.repository) : ""
+              }
+            >
+              Repositório
+            </button>
+            <button
+              onClick={(e) => (elem.link !== "" ? window.open(elem.link) : "")}
+            >
+              Visitar
+            </button>
           </div>
         </CardStyle>
       ))}

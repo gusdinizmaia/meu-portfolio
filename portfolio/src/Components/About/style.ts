@@ -75,16 +75,21 @@ export const DiagonalImg = styled.div`
 
   position: absolute;
   right: 0;
-  bottom: 170px;
   z-index: 0;
 
-  @media (min-width: 437px) {
+  bottom: 190px;
+
+  @media (min-width: 378px) {
+    bottom: 170px;
+  }
+
+  @media (min-width: 436px) {
     bottom: 150px;
   }
-  @media (min-width: 546px) {
+  @media (min-width: 542px) {
     bottom: 130px;
   }
-  @media (min-width: 692px) {
+  @media (min-width: 686px) {
     bottom: 110px;
   }
   @media (min-width: 768px) {
