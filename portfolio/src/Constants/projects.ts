@@ -31,7 +31,7 @@ export const projects = [
     description: "",
     repository:
       "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-kenzie-hub-gusdinizmaia",
-    link: "https://kenzie-hub-two-eta.vercel.app/",
+    link: "https://kenzie-hub-alpha-virid.vercel.app/",
     techs: [
       "REACTJS",
       "JAVASCRIPT",
