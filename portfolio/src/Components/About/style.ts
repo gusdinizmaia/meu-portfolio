@@ -10,7 +10,7 @@ export const AboutStyled = styled.section`
   position: relative;
 
   * {
-    z-index: 5;
+    z-index: 50;
   }
 
   figure,
@@ -19,28 +19,19 @@ export const AboutStyled = styled.section`
     width: 220px;
     margin-top: 5px;
     border-radius: 30px 0 30px 0;
+    z-index: 100;
     img {
       object-fit: cover;
       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
   }
 
-  div {
+  > div {
     display: flex;
     flex-direction: column;
     gap: 30px;
-
     font: ${({ theme }) => theme.fonts.title.two};
-    h2 {
-      text-align: center;
-      color: ${({ theme }) => theme.colors.grey.one};
-      ::after {
-        display: block;
-        content: "Front-end Developer";
-        font: ${({ theme }) => theme.fonts.text.one};
-        text-align: center;
-      }
-    }
+
     p {
       font: ${({ theme }) => theme.fonts.text.two};
       color: ${({ theme }) => theme.colors.grey.five};
@@ -54,16 +45,13 @@ export const AboutStyled = styled.section`
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 100px;
+    gap: 90px;
 
     div {
-      h2 {
-        text-align: start;
-        ::after {
-          position: relative;
-          text-align: start;
-          margin-left: 55px;
-        }
+      p {
+        padding: 0;
+        position: relative;
+        top: 90px;
       }
     }
   }
@@ -74,25 +62,34 @@ export const DiagonalImg = styled.div`
   background-color: ${({ theme }) => theme.colors.fifth.main};
   color: ${({ theme }) => theme.colors.grey.one};
   height: 70px;
-
-  width: 100%;
-
-  bottom: 190px;
-
-  @media (min-width: 378px) {
-    bottom: 170px;
+  h2 {
+    text-align: center;
+    color: ${({ theme }) => theme.colors.grey.one};
+    ::after {
+      display: block;
+      content: "Front-end Developer";
+      font: ${({ theme }) => theme.fonts.text.one};
+      text-align: center;
+    }
   }
 
-  @media (min-width: 436px) {
-    bottom: 150px;
-  }
-  @media (min-width: 542px) {
-    bottom: 130px;
-  }
-  @media (min-width: 686px) {
-    bottom: 110px;
-  }
   @media (min-width: 768px) {
+    position: absolute;
     top: 40px;
+    right: 0;
+    z-index: 1;
+
+    h2,
+    h2::after {
+      position: relative;
+    }
+
+    h2 {
+      width: fit-content;
+      left: calc(7% + 310px);
+      ::after {
+        left: 28px;
+      }
+    }
   }
 `;

@@ -9,6 +9,10 @@ export const HomeStyle = styled.main`
 
     :nth-child(1) {
       padding: 40px 0;
+
+      @media (min-width: 768px) {
+        padding: 40px 7%;
+      }
     }
   }
 `;
