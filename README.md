@@ -21,4 +21,3 @@
 <p>E-commerce - https://github.com/Kenzie-Academy-Brasil-Developers/m1-entrega-capstone-ecommerce-gusdinizmaia</p>
 <p>Mercado - https://github.com/Kenzie-Academy-Brasil-Developers/m1-entrega-mercado-gusdinizmaia</p>
 <p>KenzieFlix - https://github.com/Kenzie-Academy-Brasil-Developers/m1-sprint_2-kenzieflix-gusdinizmaia</p>
-

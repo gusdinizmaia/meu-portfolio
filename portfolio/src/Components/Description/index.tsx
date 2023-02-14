@@ -8,7 +8,7 @@ export const Description = () => {
         Minha primeira experiência com programação veio com c++ para operação de
         arduino. No último ano vim estudando desenvolvimento web com utilização
         de tecnologias como JS, CSS, React, TS e outras tecnologias. Minha
-        principal paixão hoje em dia o Desenvolvimento Fron-end focado na
+        principal paixão hoje em dia é o Desenvolvimento Front-end focado na
         experiência do usuário.
       </p>
       <IllustrationHeader />
