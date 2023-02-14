@@ -27,7 +27,7 @@ export const NavStyled = styled.nav<iIconStyled>`
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 10;
+    z-index: 500;
     background-color: ${({ theme }) => theme.colors.fifth.main};
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
