@@ -28,7 +28,7 @@ export const AboutStyled = styled.section`
   div {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
 
     font: ${({ theme }) => theme.fonts.title.two};
     h2 {
@@ -45,6 +45,8 @@ export const AboutStyled = styled.section`
       font: ${({ theme }) => theme.fonts.text.two};
       color: ${({ theme }) => theme.colors.grey.five};
       text-align: justify;
+
+      padding: 0 7%;
     }
   }
 
@@ -73,9 +75,7 @@ export const DiagonalImg = styled.div`
   color: ${({ theme }) => theme.colors.grey.one};
   height: 70px;
 
-  position: absolute;
-  right: 0;
-  z-index: 0;
+  width: 100%;
 
   bottom: 190px;
 
