@@ -5,7 +5,7 @@
 <h3>ReactJs</h3>
 
 <p>Hamburgueria Kenzie - https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-template-hamburgueria-da-kenzie-gusdinizmaia, aplicação: https://n-sigma-six.vercel.app/</p>
-<p>Kenzie-hub - https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-kenzie-hub-gusdinizmaia, aplicação: https://kenzie-hub-two-eta.vercel.app/</p>
+<p>Kenzie-hub - https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-kenzie-hub-gusdinizmaia, aplicação: https://kenzie-hub-alpha-virid.vercel.app/</p>
 <p>Nu-Kenzie - https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-template-nu-kenzie-gusdinizmaia, aplicação: https://react-entrega-s1-template-nu-kenzie-gusdinizmaia.vercel.app/</p>
 <p>Kenzie Empresas - https://github.com/Kenzie-Academy-Brasil-Developers/m2-projeto-frotend-empresas-gusdinizmaia</p>
 
