@@ -10,41 +10,41 @@ export const AboutStyled = styled.section`
   position: relative;
 
   * {
-    z-index: 5;
+    z-index: 50;
   }
 
-  figure,
-  figure > img {
-    height: 250px;
-    width: 220px;
-    margin-top: 5px;
-    border-radius: 30px 0 30px 0;
+  figure {
+    margin-top: 10px;
+    &,
+    figure > img {
+      z-index: 100;
+    }
+
     img {
+      border-radius: 30px;
+      height: 300px;
+      width: 240px;
       object-fit: cover;
       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
   }
 
-  div {
+  > div {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-
+    gap: 30px;
     font: ${({ theme }) => theme.fonts.title.two};
-    h2 {
-      text-align: center;
-      color: ${({ theme }) => theme.colors.grey.one};
-      ::after {
-        display: block;
-        content: "Front-end Developer";
-        font: ${({ theme }) => theme.fonts.text.one};
-        text-align: center;
-      }
-    }
+
     p {
       font: ${({ theme }) => theme.fonts.text.two};
       color: ${({ theme }) => theme.colors.grey.five};
       text-align: justify;
+
+      padding: 0 7%;
+
+      > strong {
+        color: ${({ theme }) => theme.colors.second.main};
+      }
     }
   }
 
@@ -52,16 +52,13 @@ export const AboutStyled = styled.section`
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 100px;
+    gap: 90px;
 
     div {
-      h2 {
-        text-align: start;
-        ::after {
-          position: relative;
-          text-align: start;
-          margin-left: 55px;
-        }
+      p {
+        padding: 0;
+        position: relative;
+        top: 110px;
       }
     }
   }
@@ -69,25 +66,40 @@ export const AboutStyled = styled.section`
 
 export const DiagonalImg = styled.div`
   width: 100%;
-  background-color: ${({ theme }) => theme.colors.fifth.main};
+  background-color: ${({ theme }) => theme.colors.second.contrast};
   color: ${({ theme }) => theme.colors.grey.one};
-  height: 70px;
+  height: 85px;
+  h2 {
+    text-align: center;
+    color: ${({ theme }) => theme.colors.grey.one};
+    font: ${({ theme }) => theme.fonts.title.one};
+    color: ${({ theme }) => theme.colors.first.main};
+    ::after {
+      display: block;
+      content: "Front-end Developer";
+      font: ${({ theme }) => theme.fonts.title.three};
+      color: ${({ theme }) => theme.colors.first.main};
+      text-align: center;
+    }
+  }
 
-  position: absolute;
-  right: 0;
-  bottom: 170px;
-  z-index: 0;
-
-  @media (min-width: 437px) {
-    bottom: 150px;
-  }
-  @media (min-width: 546px) {
-    bottom: 130px;
-  }
-  @media (min-width: 692px) {
-    bottom: 110px;
-  }
   @media (min-width: 768px) {
+    position: absolute;
     top: 40px;
+    right: 0;
+    z-index: 1;
+
+    h2,
+    h2::after {
+      position: relative;
+    }
+
+    h2 {
+      width: fit-content;
+      left: calc(7% + 325px);
+      ::after {
+        left: 18px;
+      }
+    }
   }
 `;

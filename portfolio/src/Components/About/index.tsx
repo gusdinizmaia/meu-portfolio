@@ -1,6 +1,6 @@
 import { AboutStyled, DiagonalImg } from "./style";
 
-const imgPerfil = require("../../Assents/img/perfil.jpg");
+const imgPerfil = require("../../Assents/img/perfil.webp");
 
 export const About = () => {
   return (
@@ -9,14 +9,21 @@ export const About = () => {
         <img src={imgPerfil} alt="" />
       </figure>
       <div>
-        <h2>Gustavo Diniz</h2>
+        <DiagonalImg className="diagonalImg">
+          <h2>Gustavo Diniz</h2>
+        </DiagonalImg>
         <p>
-          Sou Gustavo Diniz, jovem desenvolvedor front-end certificado pela
-          Kenzie Academy. Busco minha primeira experiência profissional e estou
-          ansioso para compartilhar meus conhecimentos e habilidades com vocês.
+          Sou Gustavo Diniz , um jovem
+          <strong> Desenvolvedor Front-end </strong>
+          certificado pela Kenzie Academy. Busco minha primeira experiência
+          profissional e{" "}
+          <b>
+            estou sansioso para compartilhar meus conhecimentos e habilidades
+            com vocês
+          </b>{" "}
+          .
         </p>
       </div>
-      <DiagonalImg className="diagonalImg"></DiagonalImg>
     </AboutStyled>
   );
 };

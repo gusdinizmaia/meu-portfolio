@@ -5,6 +5,8 @@ export const bestProjects = [
   {
     name: "Hamburgueria Kenzie",
     description: "",
+    repository:
+      "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-template-hamburgueria-da-kenzie-gusdinizmaia",
     link: "https://n-sigma-six.vercel.app/",
     techs: [
       "REACTJS",
@@ -15,12 +17,15 @@ export const bestProjects = [
       "FRONT-END",
       "HTML",
     ],
-    image: "http://localhost:3000/projects/hamburgueria.png",
+    image:
+      "https://portfolio-gusdinizmaia.vercel.app/projects/hamburgueria.webp",
   },
   {
     name: "Kenzie Hub",
     description: "",
-    link: "https://kenzie-hub-two-eta.vercel.app/",
+    repository:
+      "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-kenzie-hub-gusdinizmaia",
+    link: "https://kenzie-hub-alpha-virid.vercel.app/",
     techs: [
       "REACTJS",
       "JAVASCRIPT",
@@ -29,13 +34,15 @@ export const bestProjects = [
       "FRONT-END",
       "HTML",
     ],
-    image: "http://localhost:3000/projects/kenzie-hub.png",
+    image: "https://portfolio-gusdinizmaia.vercel.app/projects/kenzie-hub.webp",
   },
   {
     name: "Nu Kenzie",
     description: "",
+    repository:
+      "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-template-nu-kenzie-gusdinizmaia",
     link: "https://react-entrega-s1-template-nu-kenzie-gusdinizmaia.vercel.app/",
     techs: ["REACTJS", "JAVASCRIPT", "CSS", "FRONT-END", "HTML"],
-    image: "http://localhost:3000/projects/nu-kenzie.png",
+    image: "https://portfolio-gusdinizmaia.vercel.app/projects/nu-kenzie.webp",
   },
 ];
