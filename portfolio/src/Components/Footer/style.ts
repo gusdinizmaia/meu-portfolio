@@ -25,10 +25,4 @@ export const FooterStyle = styled.section`
     flex-wrap: wrap;
     position: static;
   }
-
-  @media (min-width: 768px) {
-    p {
-      width: 80%;
-    }
-  }
 `;

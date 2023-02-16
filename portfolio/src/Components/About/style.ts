@@ -13,14 +13,17 @@ export const AboutStyled = styled.section`
     z-index: 50;
   }
 
-  figure,
-  figure > img {
-    height: 250px;
-    width: 220px;
-    margin-top: 5px;
-    border-radius: 30px 0 30px 0;
-    z-index: 100;
+  figure {
+    margin-top: 10px;
+    &,
+    figure > img {
+      z-index: 100;
+    }
+
     img {
+      border-radius: 30px;
+      height: 300px;
+      width: 240px;
       object-fit: cover;
       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
@@ -38,6 +41,10 @@ export const AboutStyled = styled.section`
       text-align: justify;
 
       padding: 0 7%;
+
+      > strong {
+        color: ${({ theme }) => theme.colors.second.main};
+      }
     }
   }
 
@@ -51,7 +58,7 @@ export const AboutStyled = styled.section`
       p {
         padding: 0;
         position: relative;
-        top: 90px;
+        top: 110px;
       }
     }
   }
@@ -59,16 +66,19 @@ export const AboutStyled = styled.section`
 
 export const DiagonalImg = styled.div`
   width: 100%;
-  background-color: ${({ theme }) => theme.colors.fifth.main};
+  background-color: ${({ theme }) => theme.colors.second.contrast};
   color: ${({ theme }) => theme.colors.grey.one};
-  height: 70px;
+  height: 85px;
   h2 {
     text-align: center;
     color: ${({ theme }) => theme.colors.grey.one};
+    font: ${({ theme }) => theme.fonts.title.one};
+    color: ${({ theme }) => theme.colors.first.main};
     ::after {
       display: block;
       content: "Front-end Developer";
-      font: ${({ theme }) => theme.fonts.text.one};
+      font: ${({ theme }) => theme.fonts.title.three};
+      color: ${({ theme }) => theme.colors.first.main};
       text-align: center;
     }
   }
@@ -86,9 +96,9 @@ export const DiagonalImg = styled.div`
 
     h2 {
       width: fit-content;
-      left: calc(7% + 310px);
+      left: calc(7% + 325px);
       ::after {
-        left: 28px;
+        left: 18px;
       }
     }
   }

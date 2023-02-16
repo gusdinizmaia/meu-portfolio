@@ -7,14 +7,28 @@ export const ContactStyle = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 25px;
+  gap: 30px;
 
   background-color: ${({ theme }) => theme.colors.third.main};
 
   h3 {
-    font: ${({ theme }) => theme.fonts.text.two};
+    font: ${({ theme }) => theme.fonts.text.one};
     color: ${({ theme }) => theme.colors.grey.two};
     text-align: justify;
+    font-weight: 600;
+
+    ::after {
+      margin-top: 20px;
+      content: " Conheça meu trabalho.";
+      display: block;
+      font: ${({ theme }) => theme.fonts.title.two};
+      color: ${({ theme }) => theme.colors.grey.one};
+      text-align: center;
+    }
+
+    strong {
+      color: ${({ theme }) => theme.colors.fourth.main};
+    }
   }
   nav {
     display: flex;
@@ -46,6 +60,9 @@ export const ContactStyle = styled.section`
 
     h3 {
       width: 70%;
+      ::after {
+        text-align: start;
+      }
     }
 
     nav {
