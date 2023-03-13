@@ -6,14 +6,17 @@ export const HomeStyle = styled.main`
 
   section {
     width: 100%;
-    padding: 60px 7%;
+    padding: 80px 7%;
 
     :nth-child(1) {
-      padding: 40px 0;
+      padding: 90px 0;
 
       @media (min-width: 768px) {
-        padding: 40px 7%;
+        padding: 120px 7%;
       }
+    }
+    :nth-last-child(1) {
+      padding: 40px 0;
     }
   }
 `;
