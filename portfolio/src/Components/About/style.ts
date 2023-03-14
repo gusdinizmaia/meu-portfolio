@@ -4,7 +4,7 @@ export const AboutStyled = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 40px;
+  gap: 60px;
   background-color: ${({ theme }) => theme.colors.first.main};
 
   position: relative;
