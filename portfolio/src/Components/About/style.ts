@@ -4,91 +4,109 @@ export const AboutStyled = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 40px;
+  gap: 50px;
   background-color: ${({ theme }) => theme.colors.first.main};
 
-  position: relative;
-
-  * {
-    z-index: 50;
-  }
-
-  figure,
-  figure > img {
-    height: 250px;
-    width: 220px;
-    margin-top: 5px;
-    border-radius: 30px 0 30px 0;
-    z-index: 100;
+  figure {
+    display: flex;
+    align-items: center;
     img {
+      border-radius: 30px;
+      height: 320px;
+      width: 260px;
       object-fit: cover;
+      margin: 0 auto;
+
       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      background-color: ${({ theme }) => theme.colors.fifth.main};
     }
+
+    padding-bottom: 30px;
   }
 
-  > div {
+  font: ${({ theme }) => theme.fonts.title.two};
+
+  div {
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    font: ${({ theme }) => theme.fonts.title.two};
+    align-items: center;
+    gap: 40px;
 
+    padding-top: 20px;
+
+    h2 {
+      width: 100%;
+      text-align: center;
+      background-color: ${({ theme }) => theme.colors.second.main};
+      color: ${({ theme }) => theme.colors.first.main};
+      font: ${({ theme }) => theme.fonts.title.one};
+      padding: 10px 0;
+
+      position: relative;
+
+      ::after {
+        display: block;
+        content: "Front-end Developer";
+        font: ${({ theme }) => theme.fonts.title.three};
+        margin-top: 10px;
+      }
+    }
     p {
       font: ${({ theme }) => theme.fonts.text.two};
       color: ${({ theme }) => theme.colors.grey.five};
       text-align: justify;
-
       padding: 0 7%;
+      > strong {
+        color: ${({ theme }) => theme.colors.second.main};
+      }
     }
   }
 
   @media (min-width: 768px) {
     flex-direction: row;
-    justify-content: space-between;
     align-items: flex-start;
-    gap: 90px;
+    justify-content: space-between;
 
-    div {
-      p {
-        padding: 0;
-        position: relative;
-        top: 90px;
+    > div,
+    > figure {
+      width: 50%;
+    }
+
+    figure {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 0;
+      img {
+        z-index: 1;
       }
     }
-  }
-`;
 
-export const DiagonalImg = styled.div`
-  width: 100%;
-  background-color: ${({ theme }) => theme.colors.fifth.main};
-  color: ${({ theme }) => theme.colors.grey.one};
-  height: 70px;
-  h2 {
-    text-align: center;
-    color: ${({ theme }) => theme.colors.grey.one};
-    ::after {
-      display: block;
-      content: "Front-end Developer";
-      font: ${({ theme }) => theme.fonts.text.one};
-      text-align: center;
-    }
-  }
+    div {
+      align-items: flex-start;
+      justify-content: flex-end;
 
-  @media (min-width: 768px) {
-    position: absolute;
-    top: 40px;
-    right: 0;
-    z-index: 1;
-
-    h2,
-    h2::after {
       position: relative;
-    }
 
-    h2 {
-      width: fit-content;
-      left: calc(7% + 310px);
-      ::after {
-        left: 28px;
+      ::before {
+        content: "";
+        display: block;
+        background-color: ${({ theme }) => theme.colors.fourth.main};
+        position: absolute;
+        right: calc(-0.069 * 100vw);
+        top: 20px;
+        width: 100vw;
+        height: 95px;
+      }
+
+      h2 {
+        background-color: transparent;
+        color: ${({ theme }) => theme.colors.grey.five};
+        text-align: start;
+        padding: 0;
+      }
+      p {
+        padding: 0;
       }
     }
   }

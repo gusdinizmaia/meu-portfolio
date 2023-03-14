@@ -4,9 +4,9 @@ export const Contact = () => {
   return (
     <ContactStyle id="contact">
       <h3>
-        Desenvolvedor Front-End com experiência em JavaScript, React e
-        Typescript com foco em soluções eficientes e inovadoras para melhor
-        qualidade da aplicação. Conheça meu trabalho.
+        Desenvolvedor Front-End com experiência em
+        <strong> Javascript, React e Typescript </strong>com foco em soluções
+        eficientes e inovadoras para melhor qualidade da aplicação.
       </h3>
       <nav>
         <button

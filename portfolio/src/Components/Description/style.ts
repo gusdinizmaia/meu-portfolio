@@ -10,10 +10,16 @@ export const DescriptionStyle = styled.section`
   background-color: ${({ theme }) => theme.colors.third.main};
 
   p {
-    color: ${({ theme }) => theme.colors.grey.two};
-
+    color: ${({ theme }) => theme.colors.grey.one};
     font: ${({ theme }) => theme.fonts.text.two};
     text-align: justify;
+
+    *:not(strong) {
+      color: ${({ theme }) => theme.colors.first.main};
+    }
+    strong {
+      color: ${({ theme }) => theme.colors.fixed.black};
+    }
   }
 
   @media (min-width: 768px) {

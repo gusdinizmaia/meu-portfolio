@@ -48,14 +48,14 @@ export const theme = {
 
   fonts: {
     title: {
-      one: "700 28px Montserrat, sans-serif",
-      two: "600 24px Montserrat, sans-serif",
-      three: "600 22px Montserrat, sans-serif",
+      one: "700 42px Montserrat, sans-serif",
+      two: "600 30px Montserrat, sans-serif",
+      three: "600 24px Montserrat, sans-serif",
     },
     text: {
-      one: "600 18px Montserrat, sans-serif",
-      two: "500 16px Montserrat, sans-serif",
-      three: "400 12px Montserrat, sans-serif",
+      one: "500 18px/1.5 Montserrat, sans-serif",
+      two: "500 16px/1.5 Montserrat, sans-serif",
+      three: "500 14px/1.5 Montserrat, sans-serif",
     },
   },
 };

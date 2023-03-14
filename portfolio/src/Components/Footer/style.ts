@@ -1,34 +1,59 @@
 import styled from "styled-components";
+import {
+  TiSocialGithub,
+  TiSocialInstagram,
+  TiSocialLinkedin,
+} from "react-icons/ti";
 
 export const FooterStyle = styled.section`
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 40px;
 
   background-color: ${({ theme }) => theme.colors.fifth.main};
 
-  p {
-    font: ${({ theme }) => theme.fonts.text.one};
-    color: ${({ theme }) => theme.colors.grey.one};
-    text-align: justify;
-
-    ::after {
-      margin-top: 10px;
-      content: "- Paulo Freire";
-      display: block;
-      text-align: end;
-    }
-  }
   ul {
     align-self: center;
     flex-direction: row;
-    flex-wrap: wrap;
     position: static;
   }
+`;
 
-  @media (min-width: 768px) {
-    p {
-      width: 80%;
+export const UlSocial = styled.div`
+  width: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  align-self: center;
+
+  h3 {
+    font: ${({ theme }) => theme.fonts.title.two};
+    color: ${({ theme }) => theme.colors.grey.one};
+  }
+
+  ul {
+    display: flex;
+    gap: 20px;
+
+    svg {
+      font: ${({ theme }) => theme.fonts.title.two};
+      border-radius: 4px;
     }
   }
+`;
+
+export const InstagramIcon = styled(TiSocialInstagram)`
+  background-image: linear-gradient(135deg, #f58529 0%, #dd2a7b 100%);
+`;
+
+export const GithubIcon = styled(TiSocialGithub)`
+  color: ${({ theme }) => theme.colors.grey.one};
+  background-color: ${({ theme }) => theme.colors.grey.five};
+`;
+
+export const LinkedinIcon = styled(TiSocialLinkedin)`
+  background-color: ${({ theme }) => theme.colors.grey.five};
+  color: ${({ theme }) => theme.colors.fourth.main};
 `;
