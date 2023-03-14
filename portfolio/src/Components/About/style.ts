@@ -4,23 +4,21 @@ export const AboutStyled = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 60px;
+  gap: 50px;
   background-color: ${({ theme }) => theme.colors.first.main};
-
-  position: relative;
 
   figure {
     display: flex;
     align-items: center;
     img {
       border-radius: 30px;
-      height: 340px;
-      width: 280px;
+      height: 320px;
+      width: 260px;
       object-fit: cover;
       margin: 0 auto;
 
       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-      background-color: ${({ theme }) => theme.colors.fourth.main};
+      background-color: ${({ theme }) => theme.colors.fifth.main};
     }
 
     padding-bottom: 30px;
@@ -34,6 +32,8 @@ export const AboutStyled = styled.section`
     align-items: center;
     gap: 40px;
 
+    padding-top: 20px;
+
     h2 {
       width: 100%;
       text-align: center;
@@ -41,6 +41,9 @@ export const AboutStyled = styled.section`
       color: ${({ theme }) => theme.colors.first.main};
       font: ${({ theme }) => theme.fonts.title.one};
       padding: 10px 0;
+
+      position: relative;
+
       ::after {
         display: block;
         content: "Front-end Developer";
@@ -74,16 +77,6 @@ export const AboutStyled = styled.section`
       align-items: center;
       justify-content: center;
       padding-bottom: 0;
-      /* ::after {
-        content: "";
-        display: block;
-        background-color: ${({ theme }) => theme.colors.fourth.main};
-        position: absolute;
-        z-index: 0;
-        height: 360px;
-        width: 360px;
-        border-radius: 100%;
-      } */
       img {
         z-index: 1;
       }
@@ -93,9 +86,22 @@ export const AboutStyled = styled.section`
       align-items: flex-start;
       justify-content: flex-end;
 
+      position: relative;
+
+      ::before {
+        content: "";
+        display: block;
+        background-color: ${({ theme }) => theme.colors.fourth.main};
+        position: absolute;
+        right: calc(-0.069 * 100vw);
+        top: 20px;
+        width: 100vw;
+        height: 95px;
+      }
+
       h2 {
         background-color: transparent;
-        color: ${({ theme }) => theme.colors.second.main};
+        color: ${({ theme }) => theme.colors.grey.five};
         text-align: start;
         padding: 0;
       }
