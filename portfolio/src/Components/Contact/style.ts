@@ -34,22 +34,23 @@ export const ContactStyle = styled.section`
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 25px;
+    gap: 50px;
 
     button {
       display: flex;
       align-items: center;
-      width: 100px;
+      justify-content: center;
+      width: 140px;
       gap: 7px;
 
       :nth-child(1) {
         ${ButtonStyle("grey5")};
-        font: ${({ theme }) => theme.fonts.text.one};
+        font: ${({ theme }) => theme.fonts.title.three};
         gap: 1px;
       }
       :nth-child(2) {
         ${ButtonStyle("grey2")};
-        font: ${({ theme }) => theme.fonts.text.one};
+        font: ${({ theme }) => theme.fonts.title.three};
       }
     }
   }
@@ -75,10 +76,10 @@ export const ContactStyle = styled.section`
 
 export const GithubStyle = styled(GoMarkGithub)`
   color: ${({ theme }) => theme.colors.grey.five};
-  font: ${({ theme }) => theme.fonts.text.one};
+  font: ${({ theme }) => theme.fonts.title.three};
 `;
 export const LinkedInStyle = styled(AiFillLinkedin)`
   color: ${({ theme }) => theme.colors.fourth.main};
   background-color: ${({ theme }) => theme.colors.grey.five};
-  font: ${({ theme }) => theme.fonts.text.one};
+  font: ${({ theme }) => theme.fonts.title.three};
 `;
