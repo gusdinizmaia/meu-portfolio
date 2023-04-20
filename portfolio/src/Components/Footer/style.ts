@@ -40,6 +40,7 @@ export const UlSocial = styled.div`
     svg {
       font: ${({ theme }) => theme.fonts.title.two};
       border-radius: 4px;
+      cursor: pointer;
     }
   }
 `;

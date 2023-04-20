@@ -12,12 +12,12 @@ export const About = () => {
         <h2>Gustavo Diniz</h2>
         <p>
           Sou Gustavo Diniz, um jovem
-          <strong> Desenvolvedor Front-end </strong>
+          <strong> Desenvolvedor Front End </strong>
           certificado pela Kenzie Academy. Busco minha primeira experiência
           profissional e{" "}
           <b>
             estou ansioso para compartilhar meus conhecimentos e habilidades com
-            vocês
+            você
           </b>{" "}
           .
         </p>

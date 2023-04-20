@@ -23,6 +23,5 @@ export const ButtonsNavStyle = styled.ul`
     position: static;
     width: auto;
     height: auto;
-    position: static;
   }
 `;

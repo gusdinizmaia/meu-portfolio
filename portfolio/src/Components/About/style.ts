@@ -46,7 +46,7 @@ export const AboutStyled = styled.section`
 
       ::after {
         display: block;
-        content: "Front-end Developer";
+        content: "Front End Developer";
         font: ${({ theme }) => theme.fonts.title.three};
         margin-top: 10px;
       }
