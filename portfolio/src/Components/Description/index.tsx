@@ -5,11 +5,12 @@ export const Description = () => {
   return (
     <DescriptionStyle>
       <p>
-        Minha primeira experiência com programação veio com c++ para operação de
-        arduino. No último ano vim estudando desenvolvimento web com utilização
-        de tecnologias como JS, CSS, React, TS e outras tecnologias. Minha
-        principal paixão hoje em dia o Desenvolvimento Fron-end focado na
-        experiência do usuário.
+        Minha primeira experiência com programação veio com <em>c++</em> para
+        operação de <em>arduino</em>. No último ano vim estudando
+        desenvolvimento web com utilização de tecnologias como
+        <strong> Javascript, CSS, React, Typescript </strong>e outras
+        tecnologias. Minha principal paixão hoje em dia é o
+        <b> Desenvolvimento Front-end focado na experiência do usuário</b>.
       </p>
       <IllustrationHeader />
     </DescriptionStyle>

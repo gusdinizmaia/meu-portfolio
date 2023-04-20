@@ -27,7 +27,7 @@ export const NavStyled = styled.nav<iIconStyled>`
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 10;
+    z-index: 500;
     background-color: ${({ theme }) => theme.colors.fifth.main};
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
@@ -41,13 +41,14 @@ export const NavStyled = styled.nav<iIconStyled>`
       background-color: ${({ theme }) => theme.colors.fourth.main};
       color: ${({ theme }) => theme.colors.fixed.white};
       border-radius: ${({ theme }) => theme.border.radius.two};
-      height: 30px;
-      width: 30px;
+      height: 40px;
+      width: 40px;
       padding: 4px;
       position: fixed;
-      top: 25px;
+      top: 45px;
       right: 7%;
       z-index: 500;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
   }
 
