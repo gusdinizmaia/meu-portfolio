@@ -5,7 +5,7 @@ export const Description = () => {
   return (
     <DescriptionStyle>
       <p>
-        Minha primeira experiência com programação veio com <b>c++</b> para
+        Minha primeira experiência com programação veio com <em>c++</em> para
         operação de <em>arduino</em>. No último ano vim estudando
         desenvolvimento web com utilização de tecnologias como
         <strong> Javascript, CSS, React, Typescript </strong>e outras

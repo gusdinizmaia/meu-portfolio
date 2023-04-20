@@ -14,10 +14,11 @@ export const DescriptionStyle = styled.section`
     font: ${({ theme }) => theme.fonts.text.two};
     text-align: justify;
 
-    *:not(strong) {
+    em {
       color: ${({ theme }) => theme.colors.first.main};
     }
-    strong {
+    strong,
+    b {
       color: ${({ theme }) => theme.colors.fixed.black};
     }
   }
