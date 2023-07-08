@@ -16,10 +16,6 @@ export const FilterProjectsStyle = styled.ul`
   border-radius: ${({ theme }) => theme.border.radius.one};
   background-color: ${({ theme }) => theme.colors.fifth.main};
 
-  @media (min-width: 1024px) {
-    overflow-x: hidden;
-  }
-
   ::-webkit-scrollbar-track {
     border-radius: ${({ theme }) =>
       ` 0 0 ${theme.border.radius.one} ${theme.border.radius.one}`};

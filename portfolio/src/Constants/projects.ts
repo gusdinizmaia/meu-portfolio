@@ -151,4 +151,72 @@ export const projects = [
     techs: ["CSS", "FRONT-END", "HTML"],
     image: "",
   },
+  {
+    name: "movies",
+    description: "",
+    repository:
+      "https://github.com/Kenzie-Academy-Brasil-Developers/m4-t14-movies-typeorm-gusdinizmaia",
+    link: "",
+    techs: ["TYPESCRIPT", "EXPRESS", "BACK-END"],
+    image: "",
+  },
+  {
+    name: "Projetos e desenvolvedores",
+    description: "",
+    repository:
+      "https://github.com/Kenzie-Academy-Brasil-Developers/-m4-t14-crud-adm-gusdinizmaia",
+    link: "",
+    techs: ["TYPESCRIPT", "EXPRESS", "BACK-END", "ORM"],
+    image: "",
+  },
+  {
+    name: "Movies e Desenvolvedores",
+    description: "",
+    repository:
+      "https://github.com/Kenzie-Academy-Brasil-Developers/m4-t14-kimoveis-gusdinizmaia",
+    link: "",
+    techs: ["TYPESCRIPT", "EXPRESS", "BACK-END", "ORM"],
+    image: "",
+  },
+  {
+    name: "Pet Kare",
+    description: "",
+    repository: "https://github.com/gusdinizmaia/m5-pet-kare-gusdinizmaia",
+    link: "",
+    techs: ["PYTHON", "DJANGO", "BACK-END"],
+    image: "",
+  },
+  {
+    name: "Kenzie Buster",
+    description: "",
+    repository: "https://github.com/gusdinizmaia/m5-kenzie-buster-gusdinizmaia",
+    link: "",
+    techs: ["PYTHON", "DJANGO", "BACK-END"],
+    image: "",
+  },
+  {
+    name: "Generic View",
+    description: "",
+    repository:
+      "https://github.com/gusdinizmaia/m5-bandkamp-generic-view-gusdinizmaia",
+    link: "",
+    techs: ["PYTHON", "DJANGO", "BACK-END"],
+    image: "",
+  },
+  {
+    name: "First Time Angular",
+    description: "",
+    repository: "https://github.com/gusdinizmaia/first-time-angular",
+    link: "",
+    techs: ["ANGULAR", "FRONT-END", "TYPESCRIPT"],
+    image: "",
+  },
+  {
+    name: "MyWallet",
+    description: "",
+    repository: "https://github.com/project-full-stack-m6",
+    link: "",
+    techs: ["CSS", "FRONT-END", "HTML", "FULL-STACK", "TYPESCRIPT"],
+    image: "",
+  },
 ];
