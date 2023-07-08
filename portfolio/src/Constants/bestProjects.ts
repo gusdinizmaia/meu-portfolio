@@ -11,6 +11,7 @@ export const bestProjects = [
     techs: [
       "REACTJS",
       "JAVASCRIPT",
+      "TYPESCRIPT",
       "CSS",
       "STYLED-COMPONENTS",
       "TYPE-SCRIPT",
@@ -29,6 +30,7 @@ export const bestProjects = [
     techs: [
       "REACTJS",
       "JAVASCRIPT",
+      "TYPESCRIPT",
       "CSS",
       "STYLED-COMPONENTS",
       "FRONT-END",
