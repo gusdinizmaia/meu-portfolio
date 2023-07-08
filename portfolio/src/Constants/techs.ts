@@ -1,11 +1,16 @@
 type iTechs = string[];
 
 export const techs: iTechs = [
-  "REACTJS",
-  "JAVASCRIPT",
-  "CSS",
-  "STYLED-COMPONENTS",
-  "TYPE-SCRIPT",
+  "BACK-END",
+  "FULL-STACK",
   "FRONT-END",
+  "REACTJS",
+  "ANGULAR",
+  "JAVASCRIPT",
+  "PYTHON",
+  "TYPESCRIPT",
+  "CSS",
+  "DJANGO",
   "HTML",
+  "EXPRESS",
 ];

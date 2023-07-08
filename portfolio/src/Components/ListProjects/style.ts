@@ -21,7 +21,7 @@ export const CardStyle = styled.li`
   color: ${({ theme }) => theme.colors.grey.one};
   background-color: ${({ theme }) => theme.colors.grey.four};
   border-radius: ${({ theme }) => theme.border.radius.two};
-  height: 240px;
+  height: 260px;
   width: 240px;
 
   figure {
@@ -31,7 +31,7 @@ export const CardStyle = styled.li`
       width: 100%;
       border-radius: ${({ theme }) =>
         `${theme.border.radius.two} ${theme.border.radius.two} 0 0`};
-      object-fit: cover;
+      object-fit: fill;
     }
   }
 
